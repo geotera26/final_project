@@ -20,6 +20,10 @@ that observed by cross correlations of seismic data.
 
 Here, we use MT data from the MOCHA project.
 
+Roux, P., K. G. Sabra, P. Gerstoft, W. A. Kuperman, and M. C. Fehler (2005), P-waves 
+from crosscorrelation of seismic noise, Geophys. Res. Lett., 32, L19303,
+doi:10.1029/2005GL023803.
+
 #### Contents:
 	MOCHA_map/
 	
