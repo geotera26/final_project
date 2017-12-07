@@ -82,8 +82,8 @@ doi:10.1029/2005GL023803.
 			2. Checks to see whether receivers input are in the current directory
 			3. Calculates total length of data to read in
 			4. Reads in the data from each receiver and rotates the H and E tensors so 
-			that Hx (and Ex) components align and Hy (and Ey). This rotation is carried
-			out in a subfunction
+			that Hx (and Ex) components align. This rotation is carried out in a 
+			subfunction
 			5. Detrends each component of each receiver's rotated data
 			6. Computes cross-correlations for a given "stacklength" for each component
 			7. Stacks the cross-correlations
@@ -102,6 +102,6 @@ doi:10.1029/2005GL023803.
 		
 	II. P04_N02_Hx_200.jpg ; P04_N02_Ey_200.jpg
     	Description: Cross-correlations of the Hx and Ey components of P04 and N02 
-    	receivers. These are examples of the figures the ambnoise.m can output.
+    	receivers. These are examples of the figures that ambnoise.m can output.
 		
   
