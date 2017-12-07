@@ -8,12 +8,12 @@ Contents of MOCHA_map/
 			-inset_bnds.txt : boundaries for inset map
 			-MOCHA_med.grd : topography/bathymetry file for study region
 			-MOCHA_sitelab.txt : lon, lat, and label for MOCHA receivers. No comma 
-								separation
+			separation
 			-(optional) MochaMarineVersion2.txt : lon, lat, and label for MOCHA receivers.
-													comma-separated
+			comma-separated
 			-(optional) us.grd : topography/bathymetry file for inset (you can include 
-								this by uncommenting the specified section, but I prefer
-								the inset not to have topography)
+			this by uncommenting the specified section, but I preferthe inset not to have 
+			topography)
 				
 		Notes:
 			Execute this code in GMT
@@ -21,7 +21,7 @@ Contents of MOCHA_map/
 	
 	II. make_mocha_map_succinct.bash
 		Description: This script is nearly identical to make_mocha_map.bash . The 
-			difference is that it contains a for-loop to color code the receivers 
+		difference is that it contains a for-loop to color code the receivers 
 		
 		Requirements:
 			See make_mocha_map.bash
@@ -29,8 +29,8 @@ Contents of MOCHA_map/
 	
 	III. organize_stats.sh
 		Description: This script removes the commas from separating columns of 
-					MochaMarineVersion2.txt . As given, MochaMarineVersion2.txt was not
-					immediately useable in some of the lines of GMT code
+		MochaMarineVersion2.txt . As given, MochaMarineVersion2.txt was not immediately 
+		useable in some of the lines of GMT code
 		
 		Requirements:
 			-MochaMarineVersion2.txt
