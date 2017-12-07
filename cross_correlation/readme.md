@@ -28,7 +28,7 @@ Contents of cross_correlation/
 			-Code will take ~ 22 minutes to run if you don't have any other programs 
 			running on your computer. Clear other variables so as not to crash MATLAB.
 
-	II. P04_N02_Hx_200.jpg ; P04_N02_Ey_200.jpg
-    	Description: Cross-correlations of the Hx and Ey components of P04 and N02 
+	II. P04_N02_Hy_200.jpg ; P04_N02_Ex_200.jpg
+    	Description: Cross-correlations of the Hy and Ex components of P04 and N02 
     	receivers. These are examples of the figures the ambnoise.m can output.
 		
