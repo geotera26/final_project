@@ -1,4 +1,4 @@
-cross_correlation/
+Contents of cross_correlation/
 	
 	I. ambnoise.m
 		Description: Matlab function that computes and outputs cross-correlations of each
